@@ -20,6 +20,33 @@
         ],
         "createdAt": "2026-10-15T03:08:40.573Z",
         "reason": "static-HTML pass can't resolve var(--gutter)/clamp() CSS; live Puppeteer render at 390/768/1280px viewports confirms both flagged sections (pillars, about) have correct inset — verified in this session after fixing the one real instance of this bug (pillars-grid padding shorthand)"
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "services/index.html"
+        ],
+        "createdAt": "2026-10-15T03:39:52.168Z",
+        "reason": "client brand brief (MONARO8 brand doc) specifies #F4F1E9 'Warm white' as the mandated primary background hex, by hex code — not a reflexive AI default choice (same as index.html)"
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "about/index.html"
+        ],
+        "createdAt": "2026-10-15T03:39:52.198Z",
+        "reason": "client brand brief (MONARO8 brand doc) specifies #F4F1E9 'Warm white' as the mandated primary background hex, by hex code — not a reflexive AI default choice (same as index.html)"
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "contact/index.html"
+        ],
+        "createdAt": "2026-10-15T03:39:52.226Z",
+        "reason": "client brand brief (MONARO8 brand doc) specifies #F4F1E9 'Warm white' as the mandated primary background hex, by hex code — not a reflexive AI default choice (same as index.html)"
       }
     ]
   }
