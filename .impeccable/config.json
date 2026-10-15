@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-15T03:00:05.125Z",
+        "reason": "client brand brief (MONARO8 brand doc) specifies #F4F1E9 'Warm white' as the mandated primary background hex, by hex code — not a reflexive AI default choice"
+      }
+    ]
+  }
+}
