@@ -420,7 +420,14 @@ p{margin:0;}
 
 .footer-logo{font-size:1rem;}
 
-.footer-copy,.footer-credit{
+.footer-text{
+  display:flex;
+  flex-direction:column;
+  gap:4px;
+  text-align:right;
+}
+
+.footer-copy,.footer-legal,.footer-credit{
   font-size:0.85rem;
   color:var(--olive-text);
 }
@@ -446,4 +453,5 @@ p{margin:0;}
 
 @media (max-width: 480px){
   .footer-inner{flex-direction:column;align-items:flex-start;text-align:left;}
+  .footer-text{text-align:left;}
 }
