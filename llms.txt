@@ -1,0 +1,21 @@
+# MONARO8
+
+> MONARO8 is an independent digital advisory based in the Snowy Monaro, Australia. It helps organisations make better digital decisions and turn them into working outcomes, from strategy through to delivery. It is a registered business name of Open County Pty Ltd (ACN 679 154 557, ABN 19 679 154 557).
+
+MONARO8 is led by Oliver Moran, who spent 15 years building digital products and platforms at Qantas, IAG/NRMA, MetLife and Equifax, including travel insurance for Qantas and NRMA. Since going independent he has built BatteryMe, AllFlights and Founders Cut. He is an alumnus of Antler Singapore (Founder in Residence) and EnergyLab.
+
+MONARO8 works across regional NSW, Canberra, Sydney and Australia-wide, and is independent of vendors with no commissions on recommendations.
+
+## Services
+
+- [Home](https://monaro8.com.au/): overview, positioning and ways to start
+- [Services](https://monaro8.com.au/services/): Strategy (digital strategy and roadmaps, platform/vendor decisions, AI strategy, board papers), Product leadership (interim or fractional product leadership, product audits, customer journeys), Delivery (prototypes, AI implementation, hands-on builds)
+- [About](https://monaro8.com.au/about/): background on Oliver Moran and how MONARO8 works
+- [Contact](https://monaro8.com.au/contact/): hello@monaro8.com.au
+
+## Ways to start
+
+- AI Quick Start — half a day, $1,950 + GST: three AI opportunities ranked by hours saved, one set up and working, a plain-English staff guide, follow-up call
+- Digital Audit — 2 to 3 weeks, price on request: current-state review with top 10 issues and fixes
+- Strategy and Roadmap — 4 to 6 weeks, price on request: board-ready roadmap and first 90 days planned
+- Ongoing Advisory — monthly, price on request: fractional product or digital leadership
