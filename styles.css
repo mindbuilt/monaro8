@@ -732,7 +732,6 @@ ul{margin:0;padding:0;}
 }
 
 [data-fs-error]{
-  display:block !important;
   font-size:0.85rem;
   color:#d32f2f;
   margin-top:4px;
@@ -743,12 +742,8 @@ ul{margin:0;padding:0;}
   cursor:not-allowed;
 }
 
-[data-fs-success]{
-  display:block !important;
-}
-
-[data-fs-success],
-[data-fs-error]{
+[data-fs-success][style*="display: block"],
+[data-fs-error][style*="display: block"]{
   animation:slideDown 0.3s ease;
 }
 
