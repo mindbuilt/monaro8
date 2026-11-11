@@ -687,3 +687,46 @@ ul{margin:0;padding:0;}
   .footer-inner{flex-direction:column;align-items:flex-start;text-align:left;}
   .footer-text{text-align:left;}
 }
+
+/* ---------- Contact form ---------- */
+
+.contact-form{
+  max-width:500px;
+}
+
+.form-group{
+  margin-bottom:20px;
+}
+
+.form-group label{
+  display:block;
+  margin-bottom:6px;
+  font-weight:500;
+  font-size:0.95rem;
+  color:var(--charcoal);
+}
+
+.form-group input,
+.form-group textarea{
+  width:100%;
+  padding:12px;
+  border:1px solid var(--line);
+  border-radius:4px;
+  font-family:var(--font);
+  font-size:1rem;
+  color:var(--ink);
+  background:var(--warm-white);
+  transition:border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus{
+  outline:none;
+  border-color:var(--ochre);
+  box-shadow:0 0 0 3px rgba(181,138,97,0.1);
+}
+
+.form-group textarea{
+  resize:vertical;
+  min-height:120px;
+}

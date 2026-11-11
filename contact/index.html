@@ -105,12 +105,27 @@
   <section class="contact-block">
     <div class="wrap contact-grid">
       <div class="contact-primary">
-        <h2 class="visually-hidden">Get in touch</h2>
-        <div class="contact-cta">
-          <a class="btn btn-contact" href="mailto:hello@monaro8.com.au">hello@monaro8.com.au</a>
-          <button type="button" class="btn-copy" data-copy-email="hello@monaro8.com.au" aria-label="Copy email address">Copy email</button>
-        </div>
-        <p class="contact-note">Mention what you're working on and roughly where things stand — happy to take it from there. If the email link doesn't open an app, copy the address above.</p>
+        <h2>Get in touch</h2>
+        <form id="contact-form" class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Tell me what you're working on and roughly where things stand." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-contact">Send message</button>
+        </form>
+        <p class="contact-note" style="margin-top: 20px; font-size: 14px;">I'll reply within one business day.</p>
       </div>
 
       <ul class="contact-info">
