@@ -730,3 +730,35 @@ ul{margin:0;padding:0;}
   resize:vertical;
   min-height:120px;
 }
+
+[data-fs-error]{
+  display:block !important;
+  font-size:0.85rem;
+  color:#d32f2f;
+  margin-top:4px;
+}
+
+[data-fs-submit-btn]:disabled{
+  opacity:0.6;
+  cursor:not-allowed;
+}
+
+[data-fs-success]{
+  display:block !important;
+}
+
+[data-fs-success],
+[data-fs-error]{
+  animation:slideDown 0.3s ease;
+}
+
+@keyframes slideDown{
+  from{
+    opacity:0;
+    transform:translateY(-10px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}

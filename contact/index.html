@@ -106,25 +106,32 @@
     <div class="wrap contact-grid">
       <div class="contact-primary">
         <h2>Get in touch</h2>
-        <form id="contact-form" class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div data-fs-success style="display: none; padding: 16px; background: #e8f5e9; border-radius: 4px; margin-bottom: 20px; color: #2e7d32;">
+          Thanks for reaching out. I'll reply within one business day.
+        </div>
+        <form id="contact-form" class="contact-form">
           <div class="form-group">
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name" name="name" data-fs-field required>
+            <span data-fs-error="name" style="display: none; font-size: 0.85rem; color: #d32f2f; margin-top: 4px;"></span>
           </div>
           <div class="form-group">
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" data-fs-field required>
+            <span data-fs-error="email" style="display: none; font-size: 0.85rem; color: #d32f2f; margin-top: 4px;"></span>
           </div>
           <div class="form-group">
             <label for="company">Company</label>
-            <input type="text" id="company" name="company">
+            <input type="text" id="company" name="company" data-fs-field>
           </div>
           <div class="form-group">
             <label for="message">Message</label>
-            <textarea id="message" name="message" rows="6" placeholder="Tell me what you're working on and roughly where things stand." required></textarea>
+            <textarea id="message" name="message" placeholder="Tell me what you're working on and roughly where things stand." data-fs-field required></textarea>
+            <span data-fs-error="message" style="display: none; font-size: 0.85rem; color: #d32f2f; margin-top: 4px;"></span>
           </div>
-          <button type="submit" class="btn btn-contact">Send message</button>
+          <button type="submit" class="btn btn-contact" data-fs-submit-btn>Send message</button>
         </form>
+        <div data-fs-error style="display: none; padding: 16px; background: #ffebee; border-radius: 4px; margin-top: 20px; color: #c62828;"></div>
         <p class="contact-note" style="margin-top: 20px; font-size: 14px;">I'll reply within one business day.</p>
       </div>
 
@@ -150,6 +157,11 @@
   </div>
 </footer>
 
+<script>
+  window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+  formspree('initForm', { formElement: '#contact-form', formId: 'mljbrboz' });
+</script>
+<script src="https://unpkg.com/@formspree/ajax@1" defer></script>
 <script src="/script.js"></script>
 </body>
 </html>
