@@ -1,0 +1,132 @@
+{
+  "_note": "Single source for every venture fact on the site. Edit here, then run `node tools/build.mjs`. `repo` is a local path used to count commits; leave it out if there is none.",
+  "ventures": [
+    {
+      "id": "smeasy",
+      "wp": "01",
+      "name": "SMEasy",
+      "category": "Workforce SaaS",
+      "stage": "live",
+      "url": "https://www.smeasy.au",
+      "domain": "smeasy.au",
+      "repo": "~/code/smeasy",
+      "lat": -36.1631,
+      "lon": 148.9057,
+      "elev": 1241,
+      "place": "Survey summit",
+      "operator": "Open County Pty Ltd",
+      "card": "Staff rostering for Australian small businesses, with approved hours sent to Xero Payroll.",
+      "tagline": "Staff rostering for Australian small businesses, from a blank week to approved hours in Xero Payroll.",
+      "alt": "SMEasy homepage: a weekly staff roster with shifts for each team member",
+      "problem": "Cafés, restaurants and shops with a handful to a few dozen staff, many of them casual, build the week on paper, spreadsheets and group chats, then key the hours into payroll a second time.",
+      "thesis": "Rostering for a small team should take minutes on a phone, need no app or password for staff, and hand approved hours straight to payroll, at a flat price per business rather than per user.",
+      "build": "Managers roster on a week grid or a day view; staff get a personal link to their shifts and time-off requests. Roster links, PDF and email on publish. Timesheets that freeze on approval. Xero Payroll sync sends approved hours to draft timesheets. Supabase Postgres in Sydney, Stripe billing.",
+      "now": "Live. Stripe billing and Xero Payroll sync are switched on.",
+      "capture": {
+        "url": "https://www.smeasy.au/?preview=flatwhite",
+        "dismiss": "No thanks"
+      }
+    },
+    {
+      "id": "zerraledger",
+      "wp": "02",
+      "name": "ZerraLedger",
+      "category": "Climate compliance",
+      "stage": "early",
+      "url": "https://zerraledger.com",
+      "domain": "zerraledger.com",
+      "repo": "~/code/zerraledger",
+      "lat": -36.2549,
+      "lon": 148.9592,
+      "elev": 1140,
+      "place": "Survey summit",
+      "operator": "ZerraLedger Pty Ltd",
+      "card": "Scope 3 emissions estimates for small suppliers, built from the records they already keep.",
+      "tagline": "Scope 3 emissions estimates for small suppliers, built from the records they already keep.",
+      "alt": "ZerraLedger page headed: A customer asked for your carbon data. Now what?",
+      "problem": "Mandatory climate reporting applies to larger companies, but their emissions include what they buy. The carbon question lands on small suppliers through tenders and procurement, with no reporting obligation of their own and no budget for a consultant.",
+      "thesis": "A supplier should be able to turn records it already has into an emissions estimate it can send back, with the workings shown, in an afternoon and without a consultant.",
+      "build": "A ledger engine on the National Greenhouse Accounts factors published by DCCEEW. Upload spending records, map the columns, preview the report, pay through Stripe. Each saved period is recalculated on the server and hash-chained to the last; buyers can check a report through a public verify link.",
+      "now": "Early access. Registering interest from suppliers while the upload-to-report flow is built. Reports are documented estimates, not independently assured reporting.",
+      "capture": {
+        "url": "https://zerraledger.com/preview/"
+      }
+    },
+    {
+      "id": "batteryme",
+      "wp": "03",
+      "name": "BatteryMe",
+      "category": "Clean energy",
+      "stage": "live",
+      "url": "https://batteryme.com.au",
+      "domain": "batteryme.com.au",
+      "repo": "~/code/batteryme",
+      "lat": -36.2134,
+      "lon": 149.0977,
+      "elev": 975,
+      "place": "Survey summit",
+      "card": "A real installed price for a home battery, rebate included, from an accredited local installer.",
+      "tagline": "A real installed price for a home battery, rebate included, from an accredited local installer.",
+      "alt": "BatteryMe homepage with an instant battery estimate and rebate calculation",
+      "problem": "Households with solar can’t get a straight answer on what a battery will cost them. Estimates are generic averages, and real quotes mean days of phone calls and site visits.",
+      "thesis": "Price the job off real installer rate cards, apply the federal Cheaper Home Batteries rebate up front, and send the homeowner’s details to one installer they choose: no ring-arounds.",
+      "build": "A two-question estimate and a six-step assessment that ends in a live installer price. A matching engine in Postgres across installers, coverage and products. Rebate calculator, battery model pages, and postcode pages built from Clean Energy Regulator solar and battery data.",
+      "now": "Live, taking homeowner assessments and installer sign-ups.",
+      "capture": {
+        "url": "https://batteryme.com.au/"
+      },
+      "operator": "ZerraLedger Pty Ltd"
+    },
+    {
+      "id": "allflights",
+      "wp": "04",
+      "name": "AllFlights",
+      "category": "Aviation data",
+      "stage": "live",
+      "url": "https://www.allflights.com.au",
+      "domain": "allflights.com.au",
+      "repo": "~/code/allflights",
+      "lat": -36.3008,
+      "lon": 148.9739,
+      "elev": 936,
+      "place": "YCOM · Cooma–Snowy Mountains Airport",
+      "code": "YCOM",
+      "operator": "Open County Pty Ltd",
+      "card": "Live status for any Australian domestic flight, with no booking code, login or app.",
+      "tagline": "Live status for any Australian domestic flight, with no booking code, login or app.",
+      "alt": "AllFlights homepage with a live departures board for Australian airports",
+      "problem": "Checking a domestic flight usually means a booking reference, an airline login or yet another app, and each airline shows its own flights only.",
+      "thesis": "One independent board for every domestic flight: live departures, arrivals and gate changes across Qantas, Virgin, Jetstar and Rex, open to anyone.",
+      "build": "Live boards that refresh every 60 seconds, flight detail with aircraft, altitude and speed when airborne, shareable flight links, guides for 15 airports and route pages. An edge worker caches the live feed and falls back to the last good data.",
+      "now": "Live. Boards, flight pages, airport guides and route pages are all public.",
+      "capture": {
+        "url": "https://www.allflights.com.au/"
+      }
+    },
+    {
+      "id": "zerra",
+      "wp": "05",
+      "name": "Zerra",
+      "category": "Climate data",
+      "stage": "live",
+      "url": "https://zerra.com.au",
+      "domain": "zerra.com.au",
+      "repo": "~/code/Dash",
+      "lat": -36.1641,
+      "lon": 149.0527,
+      "elev": 959,
+      "place": "Survey summit",
+      "operator": "ZerraLedger Pty Ltd",
+      "card": "Australia’s carbon and clean energy registers in one place, free and sourced from the Clean Energy Regulator.",
+      "tagline": "Australia’s carbon and clean energy registers in one place: free, login-free and sourced to the Clean Energy Regulator.",
+      "alt": "Zerra homepage: Australia's carbon and clean energy registers, in one place",
+      "problem": "The Clean Energy Regulator publishes Safeguard Mechanism emissions, carbon credit projects, certificates and renewable projects across separate portals, PDFs and spreadsheets that few people can use.",
+      "thesis": "A free public interface to that data: clear enough for a first-time visitor, credible enough to cite, with the source and date one click under every figure.",
+      "build": "Registers for 320 Safeguard Mechanism facilities, 2,923 carbon credit projects and 978 large-scale renewable projects, Guarantee of Origin certificates, a daily certificate-issuance feed, and 2,811 postcode pages for rooftop solar and batteries. Ingested from CER data on daily, monthly and annual cadences.",
+      "now": "Live, free and ad-free. Run by ZerraLedger Pty Ltd alongside ZerraLedger.",
+      "capture": {
+        "url": "https://zerra.com.au/"
+      }
+    }
+  ]
+}

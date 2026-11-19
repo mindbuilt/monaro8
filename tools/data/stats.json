@@ -1,0 +1,25 @@
+{
+  "asOf": "2026-11-20",
+  "ventures": {
+    "smeasy": {
+      "commits": 219,
+      "first": "2026-08-19"
+    },
+    "zerraledger": {
+      "commits": 62,
+      "first": "2026-11-05"
+    },
+    "batteryme": {
+      "commits": 103,
+      "first": "2026-09-18"
+    },
+    "allflights": {
+      "commits": 341,
+      "first": "2026-09-05"
+    },
+    "zerra": {
+      "commits": 568,
+      "first": "2026-03-26"
+    }
+  }
+}

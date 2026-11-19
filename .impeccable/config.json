@@ -47,6 +47,69 @@
         ],
         "createdAt": "2026-10-15T03:39:52.226Z",
         "reason": "client brand brief (MONARO8 brand doc) specifies #F4F1E9 'Warm white' as the mandated primary background hex, by hex code — not a reflexive AI default choice (same as index.html)"
+      },
+      {
+        "rule": "overused-font",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-19T22:38:43.283Z",
+        "reason": "Founder's brief pins Inter + JetBrains Mono (PRODUCT.md Brand Commitments)"
+      },
+      {
+        "rule": "overused-font",
+        "value": "*",
+        "files": [
+          "ventures/index.html"
+        ],
+        "createdAt": "2026-11-19T22:38:43.298Z",
+        "reason": "Founder's brief pins Inter + JetBrains Mono (PRODUCT.md Brand Commitments)"
+      },
+      {
+        "rule": "overused-font",
+        "value": "*",
+        "files": [
+          "thesis/index.html"
+        ],
+        "createdAt": "2026-11-19T22:38:43.312Z",
+        "reason": "Founder's brief pins Inter + JetBrains Mono (PRODUCT.md Brand Commitments)"
+      },
+      {
+        "rule": "overused-font",
+        "value": "*",
+        "files": [
+          "contact/index.html"
+        ],
+        "createdAt": "2026-11-19T22:38:43.325Z",
+        "reason": "Founder's brief pins Inter + JetBrains Mono (PRODUCT.md Brand Commitments)"
+      },
+      {
+        "rule": "overused-font",
+        "value": "inter",
+        "files": [
+          "tools/og.html"
+        ],
+        "createdAt": "2026-11-19T22:56:43.070Z",
+        "reason": "Founder's brief pins Inter (PRODUCT.md Brand Commitments); og.html is the OG-image render fixture"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "mono",
+        "files": [
+          "tools/og.html"
+        ],
+        "createdAt": "2026-11-19T22:56:43.085Z",
+        "reason": "Detector parsed the JetBrains Mono shorthand in the OG render fixture; JetBrains Mono is the documented data face in DESIGN.md"
+      },
+      {
+        "rule": "overused-font",
+        "value": "inter",
+        "files": [
+          "styles.css"
+        ],
+        "createdAt": "2026-11-19T23:17:06.043Z",
+        "reason": "Founder's brief pins Inter (PRODUCT.md Brand Commitments); @font-face now self-hosted in styles.css"
       }
     ]
   }

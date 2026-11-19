@@ -7,67 +7,174 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-3DNY38GVPV');
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MONARO8 | Independent Digital Advisory — Strategy into Action</title>
-<meta name="description" content="Independent digital advisory based in the Snowy Monaro. Strategy, product leadership, and hands-on delivery across Southern NSW, Canberra, and Sydney.">
+<title>MONARO8 | Independent venture builder, Cooma NSW</title>
+<meta name="description" content="MONARO8 builds and runs software businesses out of Cooma, NSW: SMEasy, ZerraLedger, BatteryMe, AllFlights and Zerra. An independent venture builder using AI tools to do more with a small team.">
+<meta name="theme-color" content="#111312">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="MONARO8">
-<meta property="og:title" content="MONARO8 | Digital Advisory | Strategy into action.">
-<meta property="og:description" content="Independent digital advisory based in the Snowy Monaro. Strategy, product leadership, and hands-on delivery across Southern NSW, Canberra, and Sydney.">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="MONARO8 | Independent venture builder, Cooma NSW">
+<meta property="og:description" content="MONARO8 builds and runs software businesses out of Cooma, NSW: SMEasy, ZerraLedger, BatteryMe, AllFlights and Zerra. An independent venture builder using AI tools to do more with a small team.">
 <meta property="og:url" content="https://monaro8.com.au/">
-<meta property="og:image" content="https://monaro8.com.au/og-image.png">
+<meta property="og:image" content="https://monaro8.com.au/og/home.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:url" content="https://monaro8.com.au/" />
-<meta property="og:title" content="MONARO8 — Independent Digital Advisory" />
-<meta property="og:description" content="Strategy into action. Independent digital strategy, product leadership, and hands-on AI delivery across Southern NSW, Canberra, and Sydney." />
-<meta property="og:site_name" content="MONARO8" />
-<meta property="og:type" content="website" />
-<meta property="og:locale" content="en_AU" />
-<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://monaro8.com.au/og-image.png">
+<meta name="twitter:image" content="https://monaro8.com.au/og/home.png">
 
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="canonical" href="https://monaro8.com.au/">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
+<link rel="preload" href="/assets/fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/styles.css">
-
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.min.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/",
+  "gsap": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/index.js",
+  "gsap/ScrollTrigger": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/ScrollTrigger.js"
+} }
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "ProfessionalService",
-  "@id": "https://monaro8.com.au/#organization",
-  "name": "MONARO8",
-  "url": "https://monaro8.com.au/",
-  "image": "https://monaro8.com.au/og-image.png",
-  "description": "Independent digital advisory based in the Snowy Monaro, NSW. Digital strategy, product leadership and hands-on delivery for organisations across Southern NSW, Canberra, Sydney and Australia.",
-  "email": "hello@monaro8.com.au",
-  "founder": { "@type": "Person", "name": "Oliver Moran" },
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Snowy Monaro",
-    "addressRegion": "NSW",
-    "addressCountry": "AU"
-  },
-  "areaServed": [
-    { "@type": "City", "name": "Cooma" },
-    { "@type": "City", "name": "Jindabyne" },
-    { "@type": "City", "name": "Canberra" },
-    { "@type": "City", "name": "Sydney" },
-    { "@type": "AdministrativeArea", "name": "Southern NSW" },
-    { "@type": "Country", "name": "Australia" }
-  ],
-  "sameAs": ["https://olivermoran.com.au"]
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://monaro8.com.au/#organization",
+      "name": "MONARO8",
+      "legalName": "Open County Pty Ltd",
+      "url": "https://monaro8.com.au/",
+      "logo": "https://monaro8.com.au/favicon.svg",
+      "image": "https://monaro8.com.au/og/home.png",
+      "description": "Independent venture builder in Cooma, Snowy Monaro, NSW. MONARO8 finds what wastes people’s time and builds software businesses that fix it.",
+      "email": "hello@monaro8.com.au",
+      "taxID": "19 679 154 557",
+      "founder": {
+        "@id": "https://monaro8.com.au/thesis/#oliver-moran"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Cooma",
+        "addressRegion": "NSW",
+        "postalCode": "2630",
+        "addressCountry": "AU"
+      },
+      "location": {
+        "@type": "Place",
+        "name": "Cooma, Snowy Monaro",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -36.2355,
+          "longitude": 149.1257,
+          "elevation": "795 m"
+        }
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Canberra"
+        },
+        {
+          "@type": "State",
+          "name": "New South Wales"
+        },
+        {
+          "@type": "Country",
+          "name": "Australia"
+        }
+      ],
+      "sameAs": [
+        "https://olivermoran.com.au"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://monaro8.com.au/#website",
+      "url": "https://monaro8.com.au/",
+      "name": "MONARO8",
+      "publisher": {
+        "@id": "https://monaro8.com.au/#organization"
+      },
+      "inLanguage": "en-AU"
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://monaro8.com.au/ventures/#list",
+      "name": "Ventures built by MONARO8",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "WebSite",
+            "name": "SMEasy",
+            "url": "https://www.smeasy.au",
+            "description": "Staff rostering for Australian small businesses, with approved hours sent to Xero Payroll.",
+            "creator": {
+              "@id": "https://monaro8.com.au/#organization"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "WebSite",
+            "name": "ZerraLedger",
+            "url": "https://zerraledger.com",
+            "description": "Scope 3 emissions estimates for small suppliers, built from the records they already keep.",
+            "creator": {
+              "@id": "https://monaro8.com.au/#organization"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "WebSite",
+            "name": "BatteryMe",
+            "url": "https://batteryme.com.au",
+            "description": "A real installed price for a home battery, rebate included, from an accredited local installer.",
+            "creator": {
+              "@id": "https://monaro8.com.au/#organization"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "WebSite",
+            "name": "AllFlights",
+            "url": "https://www.allflights.com.au",
+            "description": "Live status for any Australian domestic flight, with no booking code, login or app.",
+            "creator": {
+              "@id": "https://monaro8.com.au/#organization"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "WebSite",
+            "name": "Zerra",
+            "url": "https://zerra.com.au",
+            "description": "Australia’s carbon and clean energy registers in one place, free and sourced from the Clean Energy Regulator.",
+            "creator": {
+              "@id": "https://monaro8.com.au/#organization"
+            }
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 </head>
@@ -77,131 +184,228 @@
 
 <header class="site-header">
   <div class="wrap header-inner">
-    <a class="logo" href="/" aria-label="MONARO8 home">
-      <span class="logo-word">MONARO<span class="logo-eight">8</span></span>
-      <span class="logo-descriptor">Digital Advisory</span>
-    </a>
-
-    <nav class="site-nav" aria-label="Primary">
-      <a href="/services/">Services</a>
-      <a href="/about/">About</a>
-      <a href="/contact/" class="nav-cta">Start a conversation</a>
+    <a class="wordmark" href="/" aria-label="MONARO8 home">MONARO<b>8</b></a>
+    <div class="coord-badge mono" aria-hidden="true" data-live="false">
+      <span class="coord-src"></span><span class="lat">36.2355° S</span><span class="lon">149.1257° E</span><span class="elev">795 M</span>
+    </div>
+    <nav class="site-nav" id="primary-nav" aria-label="Primary">
+      <a href="/ventures/">Ventures</a>
+      <a href="/thesis/">How we work</a>
+      <a href="/contact/">Contact</a>
     </nav>
-
-    <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
-      <span></span><span></span><span></span>
-    </button>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Menu"><i></i>Menu</button>
   </div>
-
-  <nav id="mobile-nav" class="mobile-nav" aria-label="Primary mobile">
-    <a href="/services/">Services</a>
-    <a href="/about/">About</a>
-    <a href="/contact/">Start a conversation</a>
-  </nav>
 </header>
+
+<canvas id="terrain" aria-hidden="true"></canvas>
+
+<div class="wp-layer" aria-hidden="true">
+  <div class="wp" data-wp="smeasy" data-lat="-36.1631" data-lon="148.9057" data-elev="1241"><span class="mono">WP 01<b>SMEasy</b>1,241 M</span></div>
+  <div class="wp" data-wp="zerraledger" data-lat="-36.2549" data-lon="148.9592" data-elev="1140"><span class="mono">WP 02<b>ZerraLedger</b>1,140 M</span></div>
+  <div class="wp" data-wp="batteryme" data-lat="-36.2134" data-lon="149.0977" data-elev="975"><span class="mono">WP 03<b>BatteryMe</b>975 M</span></div>
+  <div class="wp" data-wp="allflights" data-lat="-36.3008" data-lon="148.9739" data-elev="936"><span class="mono">WP 04<b>AllFlights</b>YCOM 936 M</span></div>
+  <div class="wp" data-wp="zerra" data-lat="-36.1641" data-lon="149.0527" data-elev="959"><span class="mono">WP 05<b>Zerra</b>959 M</span></div>
+</div>
+<div class="wp-layer datum-layer" aria-hidden="true">
+  <div class="wp wp--datum" data-wp="cooma" data-lat="-36.2355" data-lon="149.1257" data-elev="795"><span class="mono">Cooma<b>MONARO8</b>795 M</span></div>
+</div>
 
 <main id="main">
 
-  <section class="hero">
+  <section class="window hero" id="top" aria-labelledby="hero-title">
+    <div class="contours contours--dark" data-contours></div>
     <div class="wrap">
-      <h1>Strategy into action.</h1>
-      <p class="hero-body">MONARO8 is an independent digital advisory. It helps organisations make better digital decisions and turn them into working outcomes, from defining the problem through to delivery.</p>
+      <div>
+        <h1 id="hero-title">We find what wastes people’s time and build the&nbsp;fix.</h1>
+        <p class="hero-lede">MONARO8 builds and runs its own software businesses out of Cooma. AI tools let a small outfit build what used to take a big team, and keep the price honest. Five so far: four live and one in early access.</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="#ventures">See the ventures <span class="arr"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v11M4 9l4 4 4-4"/></svg></span></a>
+          <a class="link-quiet" href="/contact/">Get in touch</a>
+        </div>
+      </div>
+
+      <aside class="title-block mono" aria-label="Map details">
+        <div class="tb-head">
+          <span>MONARO8 · Sheet Cooma</span>
+          <svg viewBox="0 0 18 22" aria-hidden="true"><path d="M9 1 L15 20 L9 15 L3 20 Z" fill="none" stroke="#C5A880"/><path d="M9 1 L9 15 L3 20 Z" fill="#C5A880"/></svg>
+        </div>
+        <div class="label tb-tag"><span>Independent venture builder // Snowy Monaro, NSW</span></div>
+        <div><span>Datum</span><strong>36.2355° S 149.1257° E</strong></div>
+        <div><span>Cooma</span><strong>795 M ASL</strong></div>
+        <div><span>Sheet</span><strong>31.6 × 19.7 KM</strong></div>
+        <div><span>Contours</span><strong>20 M · Index 100 M</strong></div>
+        <div class="tb-scale"><span>Scale at Cooma</span><span class="sb"><svg class="sb-bar" viewBox="0 0 100 10" preserveAspectRatio="none" aria-hidden="true"><path d="M0 9.5H100M0 3V10M50 6V10M100 3V10"/><rect x="0" y="7.5" width="50" height="2"/></svg><span class="sb-label">5 km</span></span></div>
+        <div><span class="tb-src">Elevation: SRTM via AWS Terrain Tiles</span></div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="window ventures-home" id="ventures" aria-labelledby="ventures-title">
+    <div class="wrap">
+      <div class="survey-rule"></div>
+      <div class="layout">
+        <div class="intro">
+          <h2 id="ventures-title">Five businesses, built in Cooma.</h2>
+          <p>Each one started with something that bugs people: rosters on paper, carbon questions in tenders, battery quotes by ring-around, flight status behind a login, public data nobody can find.</p>
+          <a class="link-quiet" href="/ventures/">What each one does and how it’s built</a>
+        </div>
+
+        <div class="wp-grid">
+          <a class="wp-frame" href="https://www.smeasy.au" data-focus="smeasy" target="_blank" rel="noopener">
+            <div class="wf-top mono"><span class="wf-id">WP 01</span><span class="label">Workforce SaaS</span><span class="wf-stage label" data-stage="live">Live</span></div>
+            <figure><img src="/assets/ventures/smeasy.webp" alt="SMEasy homepage: a weekly staff roster with shifts for each team member" width="1200" height="750" loading="lazy" decoding="async"></figure>
+            <div class="wf-body">
+              <h3>SMEasy</h3>
+              <p>Staff rostering for Australian small businesses, with approved hours sent to Xero Payroll.</p>
+              <span class="go">smeasy.au<svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12L12 4M6 4h6v6"/></svg></span>
+            </div>
+            <div class="wf-foot mono"><span>36.1631° S 148.9057° E</span><span>1,241 M</span></div>
+          </a>
+          <a class="wp-frame" href="https://zerraledger.com" data-focus="zerraledger" target="_blank" rel="noopener">
+            <div class="wf-top mono"><span class="wf-id">WP 02</span><span class="label">Climate compliance</span><span class="wf-stage label" data-stage="early">Early access</span></div>
+            <figure><img src="/assets/ventures/zerraledger.webp" alt="ZerraLedger page headed: A customer asked for your carbon data. Now what?" width="1200" height="750" loading="lazy" decoding="async"></figure>
+            <div class="wf-body">
+              <h3>ZerraLedger</h3>
+              <p>Scope 3 emissions estimates for small suppliers, built from the records they already keep.</p>
+              <span class="go">zerraledger.com<svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12L12 4M6 4h6v6"/></svg></span>
+            </div>
+            <div class="wf-foot mono"><span>36.2549° S 148.9592° E</span><span>1,140 M</span></div>
+          </a>
+          <a class="wp-frame" href="https://batteryme.com.au" data-focus="batteryme" target="_blank" rel="noopener">
+            <div class="wf-top mono"><span class="wf-id">WP 03</span><span class="label">Clean energy</span><span class="wf-stage label" data-stage="live">Live</span></div>
+            <figure><img src="/assets/ventures/batteryme.webp" alt="BatteryMe homepage with an instant battery estimate and rebate calculation" width="1200" height="750" loading="lazy" decoding="async"></figure>
+            <div class="wf-body">
+              <h3>BatteryMe</h3>
+              <p>A real installed price for a home battery, rebate included, from an accredited local installer.</p>
+              <span class="go">batteryme.com.au<svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12L12 4M6 4h6v6"/></svg></span>
+            </div>
+            <div class="wf-foot mono"><span>36.2134° S 149.0977° E</span><span>975 M</span></div>
+          </a>
+          <a class="wp-frame" href="https://www.allflights.com.au" data-focus="allflights" target="_blank" rel="noopener">
+            <div class="wf-top mono"><span class="wf-id">WP 04</span><span class="label">Aviation data</span><span class="wf-stage label" data-stage="live">Live</span></div>
+            <figure><img src="/assets/ventures/allflights.webp" alt="AllFlights homepage with a live departures board for Australian airports" width="1200" height="750" loading="lazy" decoding="async"></figure>
+            <div class="wf-body">
+              <h3>AllFlights</h3>
+              <p>Live status for any Australian domestic flight, with no booking code, login or app.</p>
+              <span class="go">allflights.com.au<svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12L12 4M6 4h6v6"/></svg></span>
+            </div>
+            <div class="wf-foot mono"><span>YCOM 36.3008° S 148.9739° E</span><span>936 M</span></div>
+          </a>
+          <a class="wp-frame wp-frame--wide" href="https://zerra.com.au" data-focus="zerra" target="_blank" rel="noopener">
+            <div class="wf-top mono"><span class="wf-id">WP 05</span><span class="label">Climate data</span><span class="wf-stage label" data-stage="live">Live</span></div>
+            <figure><img src="/assets/ventures/zerra.webp" alt="Zerra homepage: Australia's carbon and clean energy registers, in one place" width="1200" height="750" loading="lazy" decoding="async"></figure>
+            <div class="wf-body">
+              <h3>Zerra</h3>
+              <p>Australia’s carbon and clean energy registers in one place, free and sourced from the Clean Energy Regulator.</p>
+              <span class="go">zerra.com.au<svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12L12 4M6 4h6v6"/></svg></span>
+            </div>
+            <div class="wf-foot mono"><span>36.1641° S 149.0527° E</span><span>959 M</span></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sheet section" id="ledger" aria-labelledby="ledger-title">
+    <div class="wrap">
+      <div class="survey-rule"></div>
+      <div class="section-head">
+        <h2 id="ledger-title">Studio Ledger</h2>
+        <p>What we shipped, and when. Straight from the commit history.</p>
+      </div>
+      <table class="ledger">
+        <thead class="mono"><tr><th scope="col">Date</th><th scope="col">Venture</th><th scope="col">Shipped</th></tr></thead>
+        <tbody>
+          <tr><td class="data">20 Nov 2026</td><td class="data"><span class="v">AllFlights</span></td><td>Live boards fall back to the last good data instead of failing, and bots no longer burn the flight-data quota.</td></tr>
+          <tr><td class="data">17 Nov 2026</td><td class="data"><span class="v">SMEasy</span></td><td>Paid plans switched on: Stripe billing, Xero Payroll sync on Pro, monthly pay calendars.</td></tr>
+          <tr><td class="data">16 Nov 2026</td><td class="data"><span class="v">SMEasy</span></td><td>Timesheet records: approved hours freeze, every change needs a reason, date-range export.</td></tr>
+          <tr><td class="data">15 Nov 2026</td><td class="data"><span class="v">AllFlights</span></td><td>Route pages for international flights into Australia, such as Dubai to Sydney.</td></tr>
+          <tr><td class="data">13 Nov 2026</td><td class="data"><span class="v">ZerraLedger</span></td><td>Public verify page, so a buyer holding a report link can check the supplier’s figures.</td></tr>
+          <tr><td class="data">12 Nov 2026</td><td class="data"><span class="v">ZerraLedger</span></td><td>Payment confirmation from Stripe became the only thing that can save a reporting period.</td></tr>
+          <tr><td class="data">10 Nov 2026</td><td class="data"><span class="v">ZerraLedger</span></td><td>Emissions ledger recalculated on the server and hash-chained from one period to the next.</td></tr>
+          <tr><td class="data">31 Oct 2026</td><td class="data"><span class="v">AllFlights</span></td><td>Guide pages for 15 Australian airports, linked from every board.</td></tr>
+          <tr><td class="data">25 Oct 2026</td><td class="data"><span class="v">Zerra</span></td><td>Searchable index of 320 Safeguard Mechanism facilities, each with its own page.</td></tr>
+          <tr><td class="data">24 Oct 2026</td><td class="data"><span class="v">BatteryMe</span></td><td>Postcode pages built from Clean Energy Regulator solar and battery data.</td></tr>
+          <tr><td class="data">01 Oct 2026</td><td class="data"><span class="v">BatteryMe</span></td><td>Guide to the January 2027 step-down in the federal battery rebate.</td></tr>
+          <tr><td class="data">28 Sep 2026</td><td class="data"><span class="v">BatteryMe</span></td><td>Homepage rebuilt around one decision: what a battery should really cost this home.</td></tr>
+          <tr><td class="data">15 Sep 2026</td><td class="data"><span class="v">Zerra</span></td><td>2,811 postcode pages for rooftop solar and batteries, rebuilt from CER data.</td></tr>
+          <tr><td class="data">06 Sep 2026</td><td class="data"><span class="v">AllFlights</span></td><td>Boards refresh every 60 seconds; airborne flights show altitude and speed.</td></tr>
+          <tr><td class="data">19 Aug 2026</td><td class="data"><span class="v">SMEasy</span></td><td>First commit: a weekly roster grid with CSV export.</td></tr>
+        </tbody>
+      </table>
+      <div class="ledger-note mono"><span>1,293 commits across five repositories, 26 Mar 2026 – 20 Nov 2026</span><span>Updated 20 Nov 2026</span></div>
+    </div>
+  </section>
+
+
+  <section class="sheet sheet--stone section" id="place" aria-labelledby="place-title">
+    <div class="wrap">
+      <div class="survey-rule"></div>
+      <div class="place">
+        <div class="place-copy">
+          <h2 id="place-title">Why&nbsp;Cooma.</h2>
+          <p><strong>MONARO8 is Oliver Moran.</strong> Fifteen years leading product teams at Qantas, IAG/NRMA, MetLife and Equifax, then Founder in Residence at Antler Singapore, and EnergyLab. Recently elected President of the Cooma Chamber of Commerce.</p>
+          <p>Cooma’s a working town. People here run small businesses, work trades and drive a long way for most things. They haven’t got time for software that’s overpriced or hard to use, and neither have we.</p>
+          <dl class="creds">
+            <div><dt class="label">Previously</dt><dd>Qantas · IAG/NRMA · MetLife · Equifax</dd></div>
+            <div><dt class="label">Programs</dt><dd>Antler Singapore · EnergyLab</dd></div>
+            <div><dt class="label">Study</dt><dd>MBA (Technology &amp; Digital Strategy) · BA Informatics, University of Sydney</dd></div>
+            <div><dt class="label">Community</dt><dd>President, Cooma Chamber of Commerce</dd></div>
+            <div><dt class="label">Base</dt><dd>Cooma NSW 2630</dd></div>
+          </dl>
+          <a class="link-quiet link-ink" href="/thesis/">How we work</a>
+        </div>
+
+        <figure class="survey-map">
+          <div class="map-frame draw">
+            <div class="map-canvas">
+              <div class="contours contours--light" data-contours="fit"></div>
+              <div class="map-ticks mono" aria-hidden="true">
+                <span style="left:3.6%;top:0">148.90° E</span><span class="alt" style="left:32.4%;top:0">149.00° E</span><span style="left:61.2%;top:0">149.10° E</span><span class="alt" style="left:89.9%;top:0;transform:translateX(-60%)">149.20° E</span>
+                <span style="right:0;top:29.7%">36.20° S</span><span class="alt" style="right:0;top:58.4%">36.25° S</span><span style="right:0;top:87.2%">36.30° S</span>
+              </div>
+              <div class="map-mark" style="left:68.59%;top:50.05%"><span class="mono">Cooma 795 M</span></div>
+              <div class="map-mark map-mark--wp" style="left:5.27%;top:8.44%"><span class="mono">WP 01</span></div>
+              <div class="map-mark map-mark--wp" style="left:20.66%;top:61.21%"><span class="mono">WP 02</span></div>
+              <div class="map-mark map-mark--wp" style="left:60.53%;top:37.34%"><span class="mono">WP 03</span></div>
+              <div class="map-mark map-mark--wp" style="left:24.89%;top:87.61%"><span class="mono">WP 04 YCOM</span></div>
+              <div class="map-mark map-mark--wp" style="left:47.57%;top:9.01%"><span class="mono">WP 05</span></div>
+            </div>
+            <div class="map-legend mono">
+              <span class="scale-bar"><svg viewBox="0 0 100 10" aria-hidden="true"><path d="M0 9H100M0 3V9M50 6V9M100 3V9"/><rect x="0" y="7" width="50" height="2"/></svg>5 km</span>
+              <span class="key"><i></i>20 m</span>
+              <span class="key"><i class="idx"></i>100 m index</span>
+            </div>
+          </div>
+          <figcaption>Cooma and the Monaro plains rising west to the Snowy Mountains foothills. Elevation 720–1,308 m. SRTM via AWS Terrain Tiles.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="window closing" id="closing" aria-labelledby="closing-title">
+    <div class="contours contours--dark" data-contours></div>
+    <div class="wrap">
+      <h2 id="closing-title">Got a problem that needs&nbsp;fixing?</h2>
+      <p>Want to build something together, partner up, or ask about one of the businesses? Send a short note.</p>
       <div class="hero-actions">
-        <a class="btn btn-primary" href="/contact/">Start a conversation <span aria-hidden="true">→</span></a>
-        <a class="btn btn-ghost" href="/services/">See services</a>
+        <a class="btn btn-gold" href="/contact/">Get in touch <span class="arr"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></span></a>
+        <a class="link-quiet" href="mailto:hello@monaro8.com.au">hello@monaro8.com.au</a>
       </div>
-    </div>
-  </section>
-
-  <section class="wwd">
-    <div class="wrap">
-      <h2>What MONARO8 does</h2>
-      <div class="wwd-grid">
-        <div class="wwd-item">
-          <h3>Strategy</h3>
-          <p>Digital strategy, roadmaps, platform and vendor decisions, and where AI fits. Plans a board can approve and a team can deliver.</p>
-        </div>
-        <div class="wwd-item">
-          <h3>Product leadership</h3>
-          <p>Interim or fractional product leadership, product audits, and customer journeys that convert. Senior capability without a full-time hire.</p>
-        </div>
-        <div class="wwd-item">
-          <h3>Delivery</h3>
-          <p>Prototypes, AI implementation and hands-on builds. Proof that a direction works, in weeks.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="wrap">
-      <h2>Where it helps</h2>
-      <ul class="bullet-list">
-        <li>A digital program that has stalled or drifted</li>
-        <li>A platform or vendor decision with a lot riding on it</li>
-        <li>Pressure to use AI and no clear place to start</li>
-        <li>Customers dropping out of the booking, quote or purchase journey</li>
-        <li>A product that needs senior leadership for a season</li>
-        <li>A tourism, agriculture or local government team that can't find senior digital capability nearby</li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="ways-to-start">
-    <div class="wrap">
-      <h2>Ways to start</h2>
-      <div class="pricing-grid">
-        <article class="price-card">
-          <h3>AI Quick Start</h3>
-          <p class="price-time">Half a day</p>
-          <p class="price-amount">$1,950 + GST</p>
-        </article>
-        <article class="price-card">
-          <h3>Digital Audit</h3>
-          <p class="price-time">2 to 3 weeks</p>
-          <p class="price-amount">Price on request</p>
-        </article>
-        <article class="price-card">
-          <h3>Strategy &amp; Roadmap</h3>
-          <p class="price-time">4 to 6 weeks</p>
-          <p class="price-amount">Price on request</p>
-        </article>
-        <article class="price-card">
-          <h3>Ongoing Advisory</h3>
-          <p class="price-time">Monthly</p>
-          <p class="price-amount">Price on request</p>
-        </article>
-      </div>
-      <p class="price-reassurance">Price on request simply means the scope and fixed fee are worked out first, not withheld.</p>
-      <p class="ways-to-start-cta"><a href="/services/">See full details and what's included →</a></p>
-    </div>
-  </section>
-
-  <section class="experience-band">
-    <div class="wrap">
-      <h2>Experience</h2>
-      <p>Led by <a href="/about/">Oliver Moran</a>. 15 years building digital products and platforms at Qantas, IAG/NRMA, MetLife and Equifax, including travel insurance for Qantas and NRMA. Since going independent: BatteryMe, AllFlights and Founders Cut. Antler and EnergyLab alumnus.</p>
-      <p>Based in the Snowy Monaro (Cooma and Jindabyne). Working across Southern NSW, Canberra, Sydney and Australia-wide.</p>
-    </div>
-  </section>
-
-  <section class="cta-strip">
-    <div class="wrap">
-      <h2>Got a decision to make, or one to deliver?</h2>
-      <p>Talk it through with MONARO8.</p>
-      <a class="btn btn-contact" href="/contact/">Start a conversation</a>
     </div>
   </section>
 
 </main>
 
 <footer class="site-footer">
-  <div class="wrap footer-inner">
-    <span class="logo-word footer-logo">MONARO<span class="logo-eight">8</span></span>
-    <div class="footer-text">
-      <p class="footer-copy">&copy; <span id="year"></span> MONARO8. Digital Advisory.</p>
-      <p class="footer-legal">ABN 19 679 154 557.</p>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div><a class="wordmark" href="/">MONARO<b>8</b></a><span>Independent venture builder</span><span class="mono">36.2355° S 149.1257° E</span></div>
+      <div><span class="label">Site</span><a href="/ventures/">Ventures</a><a href="/thesis/">How we work</a><a href="/advisory/">Advisory</a><a href="/contact/">Contact</a></div>
+      <div><span class="label">Ventures</span><a href="https://www.smeasy.au" rel="noopener">SMEasy</a><a href="https://zerraledger.com" rel="noopener">ZerraLedger</a><a href="https://batteryme.com.au" rel="noopener">BatteryMe</a><a href="https://www.allflights.com.au" rel="noopener">AllFlights</a><a href="https://zerra.com.au" rel="noopener">Zerra</a></div>
+      <div><span class="label">Contact</span><a href="mailto:hello@monaro8.com.au">hello@monaro8.com.au</a><span>Cooma NSW 2630</span><a href="https://olivermoran.com.au" rel="noopener">olivermoran.com.au</a></div>
     </div>
+    <div class="footer-base mono"><span>© <span id="year">2026</span> MONARO8, a registered business name of Open County Pty Ltd</span><span>ABN 19 679 154 557</span></div>
   </div>
 </footer>
 

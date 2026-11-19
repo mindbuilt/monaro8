@@ -1,0 +1,2 @@
+Inter (rsms/inter) and JetBrains Mono, latin subsets from Google Fonts, 2026-11-20.
+Both licensed under the SIL Open Font License 1.1.

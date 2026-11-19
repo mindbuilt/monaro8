@@ -1,0 +1,21 @@
+{
+  "_note": "Studio Ledger, newest first. Curated by hand from each venture's git history: one plain-English line per shipped milestone. `updated` is the date shown under the table.",
+  "updated": "2026-11-20",
+  "entries": [
+    { "date": "2026-11-20", "venture": "allflights", "text": "Live boards fall back to the last good data instead of failing, and bots no longer burn the flight-data quota." },
+    { "date": "2026-11-17", "venture": "smeasy", "text": "Paid plans switched on: Stripe billing, Xero Payroll sync on Pro, monthly pay calendars." },
+    { "date": "2026-11-16", "venture": "smeasy", "text": "Timesheet records: approved hours freeze, every change needs a reason, date-range export." },
+    { "date": "2026-11-15", "venture": "allflights", "text": "Route pages for international flights into Australia, such as Dubai to Sydney." },
+    { "date": "2026-11-13", "venture": "zerraledger", "text": "Public verify page, so a buyer holding a report link can check the supplier’s figures." },
+    { "date": "2026-11-12", "venture": "zerraledger", "text": "Payment confirmation from Stripe became the only thing that can save a reporting period." },
+    { "date": "2026-11-10", "venture": "zerraledger", "text": "Emissions ledger recalculated on the server and hash-chained from one period to the next." },
+    { "date": "2026-10-31", "venture": "allflights", "text": "Guide pages for 15 Australian airports, linked from every board." },
+    { "date": "2026-10-25", "venture": "zerra", "text": "Searchable index of 320 Safeguard Mechanism facilities, each with its own page." },
+    { "date": "2026-10-24", "venture": "batteryme", "text": "Postcode pages built from Clean Energy Regulator solar and battery data." },
+    { "date": "2026-10-01", "venture": "batteryme", "text": "Guide to the January 2027 step-down in the federal battery rebate." },
+    { "date": "2026-09-28", "venture": "batteryme", "text": "Homepage rebuilt around one decision: what a battery should really cost this home." },
+    { "date": "2026-09-15", "venture": "zerra", "text": "2,811 postcode pages for rooftop solar and batteries, rebuilt from CER data." },
+    { "date": "2026-09-06", "venture": "allflights", "text": "Boards refresh every 60 seconds; airborne flights show altitude and speed." },
+    { "date": "2026-08-19", "venture": "smeasy", "text": "First commit: a weekly roster grid with CSV export." }
+  ]
+}

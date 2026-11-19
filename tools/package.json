@@ -1,0 +1,13 @@
+{
+  "name": "monaro8-tools",
+  "private": true,
+  "type": "module",
+  "description": "Local build tools for monaro8.com.au. The site itself has no build step on Vercel.",
+  "scripts": {
+    "build": "node build.mjs",
+    "capture": "node capture-ventures.mjs",
+    "og": "node og.mjs",
+    "dem": "node build-dem.mjs"
+  },
+  "devDependencies": { "playwright": "^1.49.0", "pngjs": "^7.0.0", "d3-contour": "^4.0.2" }
+}

@@ -1,0 +1,522 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-19T22:56:01+00:00",
+  "title": "Design System: MONARO8",
+  "extensions": {
+    "colorMeta": {
+      "basalt": {
+        "role": "neutral",
+        "displayName": "Basalt",
+        "canonical": "#111312",
+        "tonalRamp": [
+          "oklch(15% 0.002 165)",
+          "oklch(26% 0.002 165)",
+          "oklch(38% 0.003 165)",
+          "oklch(49% 0.003 165)",
+          "oklch(61% 0.003 165)",
+          "oklch(72% 0.003 165)",
+          "oklch(84% 0.002 165)",
+          "oklch(95% 0.002 165)"
+        ]
+      },
+      "basalt-raised": {
+        "role": "neutral",
+        "displayName": "Raised Basalt",
+        "canonical": "#181b19",
+        "tonalRamp": [
+          "oklch(15% 0.003 157)",
+          "oklch(26% 0.004 157)",
+          "oklch(38% 0.005 157)",
+          "oklch(49% 0.006 157)",
+          "oklch(61% 0.006 157)",
+          "oklch(72% 0.005 157)",
+          "oklch(84% 0.004 157)",
+          "oklch(95% 0.003 157)"
+        ]
+      },
+      "limestone": {
+        "role": "neutral",
+        "displayName": "Limestone",
+        "canonical": "#F4F2ED",
+        "tonalRamp": [
+          "oklch(15% 0.003 89)",
+          "oklch(26% 0.004 89)",
+          "oklch(38% 0.005 89)",
+          "oklch(49% 0.006 89)",
+          "oklch(61% 0.006 89)",
+          "oklch(72% 0.005 89)",
+          "oklch(84% 0.004 89)",
+          "oklch(95% 0.003 89)"
+        ]
+      },
+      "stone": {
+        "role": "neutral",
+        "displayName": "Stone",
+        "canonical": "#EAE6DF",
+        "tonalRamp": [
+          "oklch(15% 0.005 82)",
+          "oklch(26% 0.007 82)",
+          "oklch(38% 0.008 82)",
+          "oklch(49% 0.010 82)",
+          "oklch(61% 0.010 82)",
+          "oklch(72% 0.008 82)",
+          "oklch(84% 0.007 82)",
+          "oklch(95% 0.005 82)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#181A19",
+        "tonalRamp": [
+          "oklch(15% 0.002 165)",
+          "oklch(26% 0.002 165)",
+          "oklch(38% 0.003 165)",
+          "oklch(49% 0.003 165)",
+          "oklch(61% 0.003 165)",
+          "oklch(72% 0.003 165)",
+          "oklch(84% 0.002 165)",
+          "oklch(95% 0.002 165)"
+        ]
+      },
+      "ink-muted": {
+        "role": "neutral",
+        "displayName": "Muted Ink",
+        "canonical": "#525754",
+        "tonalRamp": [
+          "oklch(15% 0.004 160)",
+          "oklch(26% 0.005 160)",
+          "oklch(38% 0.006 160)",
+          "oklch(49% 0.007 160)",
+          "oklch(61% 0.007 160)",
+          "oklch(72% 0.006 160)",
+          "oklch(84% 0.005 160)",
+          "oklch(95% 0.004 160)"
+        ]
+      },
+      "ink-light": {
+        "role": "neutral",
+        "displayName": "Light Ink",
+        "canonical": "#F4F2ED",
+        "tonalRamp": [
+          "oklch(15% 0.003 89)",
+          "oklch(26% 0.004 89)",
+          "oklch(38% 0.005 89)",
+          "oklch(49% 0.006 89)",
+          "oklch(61% 0.006 89)",
+          "oklch(72% 0.005 89)",
+          "oklch(84% 0.004 89)",
+          "oklch(95% 0.003 89)"
+        ]
+      },
+      "ink-light-muted": {
+        "role": "neutral",
+        "displayName": "Muted Light Ink",
+        "canonical": "#9BA19D",
+        "tonalRamp": [
+          "oklch(15% 0.004 157)",
+          "oklch(26% 0.006 157)",
+          "oklch(38% 0.007 157)",
+          "oklch(49% 0.008 157)",
+          "oklch(61% 0.008 157)",
+          "oklch(72% 0.007 157)",
+          "oklch(84% 0.006 157)",
+          "oklch(95% 0.004 157)"
+        ]
+      },
+      "alpine-gold": {
+        "role": "primary",
+        "displayName": "Alpine Gold",
+        "canonical": "#C5A880",
+        "tonalRamp": [
+          "oklch(15% 0.031 75)",
+          "oklch(26% 0.041 75)",
+          "oklch(38% 0.050 75)",
+          "oklch(49% 0.059 75)",
+          "oklch(61% 0.059 75)",
+          "oklch(72% 0.050 75)",
+          "oklch(84% 0.041 75)",
+          "oklch(95% 0.031 75)"
+        ]
+      },
+      "gold-ink": {
+        "role": "primary",
+        "displayName": "Gold Ink",
+        "canonical": "#7A6238",
+        "tonalRamp": [
+          "oklch(15% 0.033 80)",
+          "oklch(26% 0.042 80)",
+          "oklch(38% 0.052 80)",
+          "oklch(49% 0.062 80)",
+          "oklch(61% 0.062 80)",
+          "oklch(72% 0.052 80)",
+          "oklch(84% 0.042 80)",
+          "oklch(95% 0.033 80)"
+        ]
+      },
+      "index-contour-ink": {
+        "role": "primary",
+        "displayName": "Index Contour Ink",
+        "canonical": "#9a7f52",
+        "tonalRamp": [
+          "oklch(15% 0.034 80)",
+          "oklch(26% 0.045 80)",
+          "oklch(38% 0.055 80)",
+          "oklch(49% 0.065 80)",
+          "oklch(61% 0.065 80)",
+          "oklch(72% 0.055 80)",
+          "oklch(84% 0.045 80)",
+          "oklch(95% 0.034 80)"
+        ]
+      },
+      "eucalypt": {
+        "role": "secondary",
+        "displayName": "Eucalypt",
+        "canonical": "#4A5448",
+        "tonalRamp": [
+          "oklch(15% 0.011 140)",
+          "oklch(26% 0.015 140)",
+          "oklch(38% 0.018 140)",
+          "oklch(49% 0.021 140)",
+          "oklch(61% 0.021 140)",
+          "oklch(72% 0.018 140)",
+          "oklch(84% 0.015 140)",
+          "oklch(95% 0.011 140)"
+        ]
+      },
+      "lichen": {
+        "role": "secondary",
+        "displayName": "Lichen",
+        "canonical": "#8F978E",
+        "tonalRamp": [
+          "oklch(15% 0.008 142)",
+          "oklch(26% 0.010 142)",
+          "oklch(38% 0.012 142)",
+          "oklch(49% 0.015 142)",
+          "oklch(61% 0.015 142)",
+          "oklch(72% 0.012 142)",
+          "oklch(84% 0.010 142)",
+          "oklch(95% 0.008 142)"
+        ]
+      },
+      "survey-red": {
+        "role": "error",
+        "displayName": "Survey Red",
+        "canonical": "#9b3b2a",
+        "tonalRamp": [
+          "oklch(15% 0.065 32)",
+          "oklch(26% 0.084 32)",
+          "oklch(38% 0.103 32)",
+          "oklch(49% 0.123 32)",
+          "oklch(61% 0.123 32)",
+          "oklch(72% 0.103 32)",
+          "oklch(84% 0.084 32)",
+          "oklch(95% 0.065 32)"
+        ]
+      },
+      "rule-dark": {
+        "role": "neutral",
+        "displayName": "Survey Hairline (dark)",
+        "canonical": "rgba(24, 26, 25, 0.14)",
+        "tonalRamp": [
+          "oklch(15% 0.002 165)",
+          "oklch(26% 0.002 165)",
+          "oklch(38% 0.003 165)",
+          "oklch(49% 0.003 165)",
+          "oklch(61% 0.003 165)",
+          "oklch(72% 0.003 165)",
+          "oklch(84% 0.002 165)",
+          "oklch(95% 0.002 165)"
+        ]
+      },
+      "rule-dark-strong": {
+        "role": "neutral",
+        "displayName": "Strong Survey Hairline (dark)",
+        "canonical": "rgba(24, 26, 25, 0.32)",
+        "tonalRamp": [
+          "oklch(15% 0.002 165)",
+          "oklch(26% 0.002 165)",
+          "oklch(38% 0.003 165)",
+          "oklch(49% 0.003 165)",
+          "oklch(61% 0.003 165)",
+          "oklch(72% 0.003 165)",
+          "oklch(84% 0.002 165)",
+          "oklch(95% 0.002 165)"
+        ]
+      },
+      "rule-light": {
+        "role": "neutral",
+        "displayName": "Survey Hairline (light)",
+        "canonical": "rgba(244, 242, 237, 0.14)",
+        "tonalRamp": [
+          "oklch(15% 0.003 89)",
+          "oklch(26% 0.004 89)",
+          "oklch(38% 0.005 89)",
+          "oklch(49% 0.006 89)",
+          "oklch(61% 0.006 89)",
+          "oklch(72% 0.005 89)",
+          "oklch(84% 0.004 89)",
+          "oklch(95% 0.003 89)"
+        ]
+      },
+      "rule-light-strong": {
+        "role": "neutral",
+        "displayName": "Strong Survey Hairline (light)",
+        "canonical": "rgba(244, 242, 237, 0.3)",
+        "tonalRamp": [
+          "oklch(15% 0.003 89)",
+          "oklch(26% 0.004 89)",
+          "oklch(38% 0.005 89)",
+          "oklch(49% 0.006 89)",
+          "oklch(61% 0.006 89)",
+          "oklch(72% 0.005 89)",
+          "oklch(84% 0.004 89)",
+          "oklch(95% 0.003 89)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Home proposition over the terrain, max 15ch."
+      },
+      "display-sheet": {
+        "displayName": "Display Sheet",
+        "purpose": "Venture names heading each venture sheet."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section h2s on sheets and windows."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Venture names in waypoint frames."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Hero and page-hero standfirst in muted light ink."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Prose, 54-64ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Inter uppercase names: dt terms, category, stage, footer heads. Never data."
+      },
+      "data": {
+        "displayName": "Data",
+        "purpose": "JetBrains Mono for coordinates, elevations, dates, counts, waypoint ids, ledger data only."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "MONARO8 with a gold 8."
+      }
+    },
+    "shadows": [
+      {
+        "name": "nav-current-underline",
+        "value": "inset 0 -2px 0 #C5A880",
+        "purpose": "Stroke, not elevation: underline for the current nav item."
+      },
+      {
+        "name": "field-focus-ring",
+        "value": "0 0 0 1px #181A19",
+        "purpose": "Stroke, not elevation: doubles the input border on focus (survey red when invalid)."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Default ease for reveals, hovers and terrain fade."
+      },
+      {
+        "name": "terrain-fade",
+        "value": "opacity 1.6s ease-out",
+        "purpose": "WebGL relief fades in once ready."
+      },
+      {
+        "name": "survey-rule-draw",
+        "value": "stroke-dashoffset 1.6s ease-out; ticks +70ms each after 300ms",
+        "purpose": "Section rule draws on entry."
+      },
+      {
+        "name": "contour-draw",
+        "value": "stroke-dashoffset 2.4s (minor), 2.8s +0.25s (index)",
+        "purpose": "Light survey map contours draw on entry."
+      },
+      {
+        "name": "waypoint-frame-hover",
+        "value": "filter .6s, transform .9s ease-out; image scale 1.025",
+        "purpose": "Screenshot returns to colour on hover/focus."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "transition-duration 0s; rules and contours shown fully drawn; no WebGL",
+        "purpose": "prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "menu",
+        "value": "760px"
+      },
+      {
+        "name": "terrain-gate",
+        "value": "900px (min-width, plus no-preference motion and WebGL2)"
+      },
+      {
+        "name": "stack",
+        "value": "900px / 1000px"
+      },
+      {
+        "name": "ventures-intro",
+        "value": "1100px"
+      },
+      {
+        "name": "single-column",
+        "value": "640px"
+      },
+      {
+        "name": "max",
+        "value": "1440px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Gold Button",
+      "kind": "button",
+      "refersTo": "button-gold",
+      "description": "The single primary action on dark ground, with a trailing arrow that nudges on hover.",
+      "html": "<div class=\"ds-dark\"><a class=\"ds-btn ds-btn-gold\" href=\"#\">See the ventures <span class=\"ds-arr\"><svg class=\"ds-ico\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M8 2v11M4 9l4 4 4-4\"/></svg></span></a></div>",
+      "css": ".ds-dark{background:#111312;padding:24px}.ds-btn{display:inline-flex;align-items:center;gap:14px;padding:16px 22px;border:1px solid transparent;border-radius:0;font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;font-weight:600;font-size:1rem;line-height:1;text-decoration:none;cursor:pointer;transition:background-color .25s cubic-bezier(.16,1,.3,1),color .25s}.ds-btn-gold{background:#C5A880;color:#111312}.ds-btn-gold:hover{background:#F4F2ED}.ds-btn:focus-visible{outline:2px solid #C5A880;outline-offset:3px}.ds-arr{display:inline-flex;transition:transform .3s cubic-bezier(.16,1,.3,1)}.ds-btn:hover .ds-arr{transform:translateY(3px)}.ds-ico{display:inline-block;width:.95em;height:.95em;vertical-align:-.1em;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:square}"
+    },
+    {
+      "name": "Ink Button",
+      "kind": "button",
+      "refersTo": "button-ink",
+      "description": "Primary action on limestone sheets (Send enquiry).",
+      "html": "<div class=\"ds-sheet\"><button class=\"ds-btn ds-btn-ink\" type=\"button\">Send enquiry <span class=\"ds-arr\"><svg class=\"ds-ico\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M4 12L12 4M6 4h6v6\"/></svg></span></button></div>",
+      "css": ".ds-sheet{background:#F4F2ED;padding:24px}.ds-btn{display:inline-flex;align-items:center;gap:14px;padding:16px 22px;border:1px solid transparent;border-radius:0;font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;font-weight:600;font-size:1rem;line-height:1;cursor:pointer;transition:background-color .25s cubic-bezier(.16,1,.3,1)}.ds-btn-ink{background:#181A19;color:#F4F2ED}.ds-btn-ink:hover{background:#4A5448}.ds-btn:focus-visible{outline:2px solid #C5A880;outline-offset:3px}.ds-arr{display:inline-flex;transition:transform .3s cubic-bezier(.16,1,.3,1)}.ds-btn:hover .ds-arr{transform:translateX(4px)}.ds-ico{display:inline-block;width:.95em;height:.95em;vertical-align:-.1em;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:square}"
+    },
+    {
+      "name": "Quiet Link",
+      "kind": "button",
+      "refersTo": "link-quiet",
+      "description": "Secondary action beside a button: underlined with a hairline that turns gold.",
+      "html": "<div class=\"ds-dark\"><a class=\"ds-quiet\" href=\"#\">Start an enquiry</a></div>",
+      "css": ".ds-dark{background:#111312;padding:24px}.ds-quiet{font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;font-weight:500;font-size:1.0625rem;color:#F4F2ED;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.22em;text-decoration-color:rgba(244,242,237,.3);transition:text-decoration-color .2s}.ds-quiet:hover{text-decoration-color:#C5A880}.ds-quiet:focus-visible{outline:2px solid #C5A880;outline-offset:3px}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Square white field on a strong hairline; focus doubles the border in ink.",
+      "html": "<div class=\"ds-sheet\"><label class=\"ds-field\"><span class=\"ds-flabel\">Email</span><input class=\"ds-input\" type=\"email\" placeholder=\"name@company.com.au\"></label></div>",
+      "css": ".ds-sheet{background:#F4F2ED;padding:24px}.ds-field{display:flex;flex-direction:column;gap:8px;max-width:360px}.ds-flabel{font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;font-weight:500;font-size:.9375rem;color:#181A19}.ds-input{font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;font-size:1.0625rem;line-height:1.5;color:#181A19;background:#fff;border:1px solid rgba(24,26,25,.32);border-radius:0;padding:13px 14px;caret-color:#7A6238;transition:border-color .2s,box-shadow .2s}.ds-input::placeholder{color:#6b706d}.ds-input:hover{border-color:#525754}.ds-input:focus{outline:none;border-color:#181A19;box-shadow:0 0 0 1px #181A19}"
+    },
+    {
+      "name": "Map Header Strip",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Fixed basalt header: wordmark, mono coordinate badge, full-height hairline nav cells.",
+      "html": "<header class=\"ds-head\"><a class=\"ds-wm\" href=\"#\">MONARO<b>8</b></a><span class=\"ds-coord\"><span class=\"ds-src\">DATUM</span><span>36.2355° S</span><span>149.1257° E</span><span class=\"ds-elev\">795 M</span></span><nav class=\"ds-nav\"><a href=\"#\" aria-current=\"page\">Ventures</a><a href=\"#\">Thesis</a><a href=\"#\">Contact</a></nav></header>",
+      "css": ".ds-head{display:flex;align-items:center;gap:24px;height:56px;padding:0 24px;background:#111312;border-bottom:1px solid rgba(244,242,237,.14);color:#F4F2ED}.ds-wm{font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;font-weight:700;font-size:1.0625rem;letter-spacing:.06em;text-decoration:none;color:#F4F2ED}.ds-wm b{color:#C5A880}.ds-coord{display:flex;gap:14px;padding-left:24px;border-left:1px solid rgba(244,242,237,.14);color:#9BA19D;font-family:'JetBrains Mono','IBM Plex Mono',ui-monospace,monospace;font-size:.75rem;line-height:1.5;letter-spacing:.04em;text-transform:uppercase;font-variant-numeric:tabular-nums;}.ds-src{color:#8F978E}.ds-elev{color:#C5A880}.ds-nav{margin-left:auto;display:flex;height:100%}.ds-nav a{display:flex;align-items:center;padding:0 24px;border-left:1px solid rgba(244,242,237,.14);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;font-size:.9375rem;font-weight:500;text-decoration:none;color:#9BA19D;transition:color .2s,background-color .2s}.ds-nav a:last-child{border-right:1px solid rgba(244,242,237,.14)}.ds-nav a:hover{color:#F4F2ED;background:#181b19}.ds-nav a[aria-current=page]{color:#F4F2ED;box-shadow:inset 0 -2px 0 #C5A880}.ds-nav a:focus-visible{outline:2px solid #C5A880;outline-offset:-2px}"
+    },
+    {
+      "name": "Waypoint Frame",
+      "kind": "card",
+      "refersTo": "waypoint-frame",
+      "description": "Venture card as a map inset: data strip, desaturated screenshot, title, outbound link, coordinate foot.",
+      "html": "<div class=\"ds-dark\"><a class=\"ds-wf\" href=\"#\"><div class=\"ds-wf-top\"><span class=\"ds-id\">WP 03</span><span class=\"ds-lbl\">Clean energy</span><span class=\"ds-lbl ds-stage\">Live</span></div><div class=\"ds-fig\"></div><div class=\"ds-wf-body\"><h3>BatteryMe</h3><p>A real installed price for a home battery, rebate included.</p><span class=\"ds-go\">batteryme.com.au<svg class=\"ds-ico\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M4 12L12 4M6 4h6v6\"/></svg></span></div><div class=\"ds-wf-foot\"><span>36.2134° S 149.0977° E</span><span>975 M</span></div></a></div>",
+      "css": ".ds-dark{background:#111312;padding:24px}.ds-wf{display:flex;flex-direction:column;max-width:420px;border:1px solid rgba(244,242,237,.3);background:rgba(17,19,18,.9);color:#F4F2ED;text-decoration:none;transition:background-color .4s cubic-bezier(.16,1,.3,1)}.ds-wf:hover{background:rgba(24,27,25,.97)}.ds-wf:focus-visible{outline:2px solid #C5A880;outline-offset:-2px}.ds-wf-top,.ds-wf-foot{display:flex;justify-content:space-between;gap:12px;padding:12px 16px;color:#9BA19D;font-family:'JetBrains Mono','IBM Plex Mono',ui-monospace,monospace;font-size:.75rem;line-height:1.5;letter-spacing:.04em;text-transform:uppercase;font-variant-numeric:tabular-nums;}.ds-wf-top{border-bottom:1px solid rgba(244,242,237,.14)}.ds-wf-foot{border-top:1px solid rgba(244,242,237,.14)}.ds-id{color:#C5A880}.ds-lbl{font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;font-size:.75rem;line-height:1.5;font-weight:500;letter-spacing:.06em;text-transform:uppercase;}.ds-stage{display:inline-flex;align-items:center;gap:7px}.ds-stage::before{content:'';width:6px;height:6px;background:#C5A880}.ds-fig{aspect-ratio:16/10;background:#181b19;border-bottom:1px solid rgba(244,242,237,.14)}.ds-wf-body{padding:16px 16px 20px}.ds-wf h3{margin:0;font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;font-weight:600;font-size:1.625rem;letter-spacing:-.02em;line-height:1.1}.ds-wf p{margin:8px 0 0;color:#9BA19D;font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;font-size:.97rem;line-height:1.5}.ds-go{display:inline-block;margin-top:14px;font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;font-size:.9375rem;font-weight:500;text-decoration:underline;text-decoration-color:rgba(244,242,237,.3);text-underline-offset:.22em}.ds-go .ds-ico{margin-left:.3em}.ds-wf:hover .ds-go{text-decoration-color:#C5A880}.ds-ico{display:inline-block;width:.95em;height:.95em;vertical-align:-.1em;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:square}"
+    },
+    {
+      "name": "Map Title Block",
+      "kind": "custom",
+      "refersTo": "title-block",
+      "description": "Framed data stack: sheet name and north arrow, datum, elevation, contours, scale bar, source.",
+      "html": "<div class=\"ds-dark\"><aside class=\"ds-tb\"><div class=\"ds-tb-head\"><span>MONARO8 · Sheet Cooma</span><svg viewBox=\"0 0 18 22\" width=\"18\" height=\"22\" aria-hidden=\"true\"><path d=\"M9 1 L15 20 L9 15 L3 20 Z\" fill=\"none\" stroke=\"#C5A880\"/><path d=\"M9 1 L9 15 L3 20 Z\" fill=\"#C5A880\"/></svg></div><div><span>Datum</span><strong>36.2355° S 149.1257° E</strong></div><div><span>Cooma</span><strong>795 M ASL</strong></div><div><span>Contours</span><strong>20 M · Index 100 M</strong></div><div><span>Scale</span><span class=\"ds-sb\"><svg width=\"80\" height=\"10\" viewBox=\"0 0 100 10\" preserveAspectRatio=\"none\"><path d=\"M0 9.5H100M0 3V10M50 6V10M100 3V10\" stroke=\"#9BA19D\" fill=\"none\"/><rect x=\"0\" y=\"7.5\" width=\"50\" height=\"2\" fill=\"#C5A880\"/></svg>5 km</span></div><div><span class=\"ds-tb-src\">Elevation: SRTM via AWS Terrain Tiles</span></div></aside></div>",
+      "css": ".ds-dark{background:#111312;padding:24px}.ds-tb{width:300px;border:1px solid rgba(244,242,237,.3);background:rgba(17,19,18,.82);color:#9BA19D;font-family:'JetBrains Mono','IBM Plex Mono',ui-monospace,monospace;font-size:.75rem;line-height:1.5;letter-spacing:.04em;text-transform:uppercase;font-variant-numeric:tabular-nums;}.ds-tb>div{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:9px 12px;border-top:1px solid rgba(244,242,237,.14)}.ds-tb>div:first-child{border-top:0}.ds-tb-head{color:#F4F2ED}.ds-tb strong{color:#F4F2ED;font-weight:500}.ds-sb{display:inline-flex;align-items:center;gap:8px;color:#F4F2ED}.ds-tb-src{color:#8F978E;font-size:.6875rem}"
+    },
+    {
+      "name": "Route Option",
+      "kind": "chip",
+      "refersTo": "route-option",
+      "description": "Radio choice cell in a shared-hairline grid; checked inverts to ink with a gold survey mark.",
+      "html": "<div class=\"ds-sheet\"><div class=\"ds-routes\"><label class=\"ds-route\"><input type=\"radio\" name=\"r\" checked><span class=\"ds-rl\"><i class=\"ds-mark\"></i><b>Co-build</b><span>Partner on a new venture.</span></span></label><label class=\"ds-route\"><input type=\"radio\" name=\"r\"><span class=\"ds-rl\"><i class=\"ds-mark\"></i><b>Advisory</b><span>Selective strategic work.</span></span></label></div></div>",
+      "css": ".ds-sheet{background:#F4F2ED;padding:24px}.ds-routes{display:grid;grid-template-columns:1fr 1fr;max-width:480px;border-top:1px solid rgba(24,26,25,.32);border-left:1px solid rgba(24,26,25,.32)}.ds-route{position:relative;border-right:1px solid rgba(24,26,25,.32);border-bottom:1px solid rgba(24,26,25,.32)}.ds-route input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}.ds-rl{display:flex;flex-direction:column;gap:6px;height:100%;padding:16px 16px 18px;font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;color:#181A19;transition:background-color .2s}.ds-rl b{font-weight:600}.ds-rl span{color:#525754;font-size:.9375rem;line-height:1.45}.ds-mark{width:14px;height:14px;border:1px solid #525754;border-radius:50%}.ds-route:hover .ds-rl{background:#EAE6DF}.ds-route input:checked+.ds-rl{background:#181A19;color:#F4F2ED}.ds-route input:checked+.ds-rl span{color:#9BA19D}.ds-route input:checked+.ds-rl .ds-mark{border-color:#C5A880;background:radial-gradient(circle,#C5A880 0 3px,transparent 3.5px)}.ds-route input:focus-visible+.ds-rl{outline:2px solid #C5A880;outline-offset:-2px}"
+    },
+    {
+      "name": "Survey Rule",
+      "kind": "custom",
+      "refersTo": "survey-rule",
+      "description": "Ticked 1px hairline that draws across the top of each section.",
+      "html": "<div class=\"ds-sheet\"><svg class=\"ds-rule\" viewBox=\"0 0 100 9\" preserveAspectRatio=\"none\" aria-hidden=\"true\"><line x1=\"0\" y1=\"8.5\" x2=\"100\" y2=\"8.5\"/><line x1=\"0\" y1=\"0\" x2=\"0\" y2=\"8.5\"/><line x1=\"12.5\" y1=\"4\" x2=\"12.5\" y2=\"8.5\"/><line x1=\"25\" y1=\"4\" x2=\"25\" y2=\"8.5\"/><line x1=\"37.5\" y1=\"4\" x2=\"37.5\" y2=\"8.5\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"8.5\"/><line x1=\"62.5\" y1=\"4\" x2=\"62.5\" y2=\"8.5\"/><line x1=\"75\" y1=\"4\" x2=\"75\" y2=\"8.5\"/><line x1=\"87.5\" y1=\"4\" x2=\"87.5\" y2=\"8.5\"/><line x1=\"100\" y1=\"0\" x2=\"100\" y2=\"8.5\"/></svg></div>",
+      "css": ".ds-sheet{background:#F4F2ED;padding:24px}.ds-rule{display:block;width:100%;height:9px;overflow:visible;color:rgba(24,26,25,.32)}.ds-rule line{stroke:currentColor;stroke-width:1;vector-effect:non-scaling-stroke}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Survey Sheet",
+    "overview": "Every surface is a page of a survey of Cooma. The real Monaro terrain (a 31.6 × 19.7 km SRTM DEM) is the ground the site sits on: on desktop it renders as a live WebGL contour relief in basalt night, and everywhere else as the same real contours drawn as a static SVG. Over that ground the site lays two kinds of paper: dark \"windows\" that let the terrain show through, and limestone or stone \"sheets\" that carry reading and proof. Everything is ruled, labelled and positioned the way a printed topographic sheet is: title block, scale bar, north arrow, graticule ticks, waypoint marks, a legend.\n\nThe editorial half is Swiss: one sans family set big and tight for display, a 12-column grid, generous section padding, and hairlines instead of boxes. The cartographic half is brutalist in its honesty: square corners, no shadows, no ornament that is not survey chrome, and every number shown is a real coordinate, elevation, date or count. Density is low in prose and high in data strips, which read like map margins.\n\nThe world refuses the studio-portfolio default (centred headline, card row, logo wall) and the brand's named anti-references: purple gradients, glowing orbs, meeting stock photography, SaaS clichés.",
+    "keyCharacteristics": [
+      "Real Cooma topography as the signature, never a generic texture.",
+      "Basalt windows over terrain alternate with limestone and stone sheets.",
+      "1px survey hairlines do all the structural work; zero radius, zero shadow.",
+      "Inter for words, JetBrains Mono strictly for data.",
+      "Alpine gold is the single warm signal: index contours, waypoints, primary action, focus."
+    ],
+    "rules": [
+      {
+        "name": "The Index Contour Rule",
+        "body": "Gold is the index colour. It marks what the survey wants you to find (index contours, waypoints, the one primary action, focus) and nothing else. One gold button per view.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Grounds Rule",
+        "body": "A surface is either a basalt window (terrain or contours behind, light ink) or a limestone/stone sheet (dark ink, no terrain). Never place limestone text panels floating over the terrain.",
+        "section": "colors"
+      },
+      {
+        "name": "The Surveyor's Pen Rule",
+        "body": "Mono is for figures a surveyor would write: coordinates, elevations, dates, counts, waypoint ids, ledger data. Words that name things use the Inter label style, never mono.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tight Title Rule",
+        "body": "Display and headline sizes always carry negative tracking (-0.02em to -0.045em) and line-height at or below 1.1. Body never does.",
+        "section": "typography"
+      },
+      {
+        "name": "The Terrain Gate Rule",
+        "body": "WebGL terrain runs only at min-width 900px with `prefers-reduced-motion: no-preference` and WebGL2. Every other visitor gets the static DEM contour SVG on a basalt ground, never a degraded animation.",
+        "section": "layout"
+      },
+      {
+        "name": "The Paper Not Plastic Rule",
+        "body": "Nothing lifts. State changes shift fill, ink, or hairline strength, never add shadow. The two `box-shadow` uses in the build are strokes, not elevation: the 2px inset gold underline on the current nav item and the 1px focus ring that doubles an input border.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do derive every contour, coordinate and elevation from the real Cooma DEM and real positions; label the source.",
+      "Do build structure from 1px hairlines (`rule-*`), with strong rules for frames and table heads and base rules for internal rows.",
+      "Do set figures in JetBrains Mono (0.75rem, 0.04em, uppercase, tabular) and name things in the Inter label style (500, 0.75rem, 0.06em, uppercase).",
+      "Do keep alpine gold to index contours, waypoints, the single primary action and focus; use gold ink for gold text on limestone.",
+      "Do use the authored square-cap SVG arrow set for every icon.",
+      "Do give mobile and reduced-motion visitors the static DEM contours, fully drawn.",
+      "Do use the expo-out ease (cubic-bezier(0.16, 1, 0.3, 1)) for reveals and state changes."
+    ],
+    "donts": [
+      "Don't round corners on any rectangle; circles are reserved for survey marks.",
+      "Don't add drop shadows or glows; separate surfaces by ground, tone and hairline.",
+      "Don't use gradients except the terrain shading and basalt legibility scrims behind copy over terrain.",
+      "Don't set prose, names or categories in mono; mono is for data.",
+      "Don't put alpine gold text on limestone or stone.",
+      "Don't use purple gradients, glowing orbs, meeting stock photos, logo walls or a centred-headline-plus-card-row studio layout.",
+      "Don't invent figures: no customer counts, revenue, user numbers or testimonials in data strips."
+    ]
+  }
+}

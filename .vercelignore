@@ -1,0 +1,5 @@
+tools/
+PRODUCT.md
+DESIGN.md
+.impeccable/
+assets/ventures/*.json

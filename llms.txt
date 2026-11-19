@@ -1,21 +1,23 @@
 # MONARO8
 
-> MONARO8 is an independent digital advisory based in the Snowy Monaro, Australia. Grounded in enterprise-scale strategy and hands-on product building, it helps organisations make better digital decisions and turn them into working outcomes—from initial strategy through to delivery. It is a registered business name of Open County Pty Ltd (ACN 679 154 557, ABN 19 679 154 557).
+> MONARO8 is an independent venture builder based in Cooma, Snowy Monaro, NSW, Australia (36.2355° S, 149.1257° E). It finds what wastes people’s time and builds software businesses that fix it, using AI tools to do more with a small team. MONARO8 is a registered business name of Open County Pty Ltd (ABN 19 679 154 557).
 
-MONARO8 is led by Oliver Moran, a product leader and AI builder with 15 years of experience delivering enterprise-scale digital platforms. He is the founder of ZerraLedger and has built practical software products including Zerra, BatteryMe, and AllFlights, alongside accelerator experience with Antler Singapore and EnergyLab.
+MONARO8 is led by founder Oliver Moran, who spent fifteen years leading product teams at Qantas, IAG/NRMA, MetLife and Equifax. He was Founder in Residence at Antler Singapore, is an EnergyLab alumnus, holds an MBA (Technology and Digital Strategy) from the University of Sydney, and is President of the Cooma Chamber of Commerce.
 
-MONARO8 works across regional NSW, Canberra, Sydney and Australia-wide, and is independent of vendors with no commissions on recommendations.
+Alongside the ventures, MONARO8 provides independent digital and product advisory, mostly for Canberra public-sector and enterprise teams: digital strategy, AI strategy, platform and vendor decisions, and fractional product leadership.
 
-## Services
+## Pages
 
-- [Home](https://monaro8.com.au/): overview, positioning and ways to start
-- [Services](https://monaro8.com.au/services/): Strategy (digital strategy and roadmaps, platform/vendor decisions, AI strategy, board papers), Product leadership (interim or fractional product leadership, product audits, customer journeys), Delivery (MVPs and prototypes, product features, customer journeys and workflows built end-to-end)
-- [About](https://monaro8.com.au/about/): background on Oliver Moran and how MONARO8 works
-- [Contact](https://monaro8.com.au/contact/): hello@monaro8.com.au
+- [Home](https://monaro8.com.au/): positioning, the ventures, the Studio Ledger build log, founder and place
+- [Ventures](https://monaro8.com.au/ventures/): problem, thesis, build and current stage for each venture
+- [How we work](https://monaro8.com.au/thesis/): how problems are picked and built, founder background
+- [Advisory](https://monaro8.com.au/advisory/): independent digital strategy, AI strategy and product leadership for Canberra public-sector and enterprise teams
+- [Contact](https://monaro8.com.au/contact/): enquiry form; email hello@monaro8.com.au
 
-## Ways to start
+## Ventures
 
-- Discovery Conversation — 45 minutes, free: understand your situation, explore options, identify what to focus on first
-- Digital Audit — 2 to 3 weeks, price on request: current-state review with top 10 issues and fixes
-- Strategy and Roadmap — 4 to 6 weeks, price on request: board-ready roadmap and first 90 days planned
-- Ongoing Advisory — monthly, price on request: fractional product or digital leadership
+- [SMEasy](https://www.smeasy.au) (live): Staff rostering for Australian small businesses, with approved hours sent to Xero Payroll.
+- [ZerraLedger](https://zerraledger.com) (early access; operated by ZerraLedger Pty Ltd): Scope 3 emissions estimates for small suppliers, built from the records they already keep.
+- [BatteryMe](https://batteryme.com.au) (live; operated by ZerraLedger Pty Ltd): A real installed price for a home battery, rebate included, from an accredited local installer.
+- [AllFlights](https://www.allflights.com.au) (live): Live status for any Australian domestic flight, with no booking code, login or app.
+- [Zerra](https://zerra.com.au) (live; operated by ZerraLedger Pty Ltd): Australia’s carbon and clean energy registers in one place, free and sourced from the Clean Energy Regulator.

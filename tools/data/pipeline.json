@@ -1,0 +1,14 @@
+{
+  "_note": "What's on the bench: ideas, AI projects and upgrades. Set show to true to put the section on the home page. Groups render in this order; an empty group is skipped. status: idea | exploring | building.",
+  "show": false,
+  "groups": [
+    { "id": "upgrades", "title": "Upgrades to the businesses" },
+    { "id": "replace", "title": "Cheaper, simpler software" },
+    { "id": "good", "title": "AI for good" },
+    { "id": "creative", "title": "AI, art and making things" }
+  ],
+  "items": [
+    { "group": "upgrades", "venture": "smeasy", "status": "building", "title": "Shift reminders on staff phones", "text": "Push notifications from the staff link, so nobody misses a changed shift. No SMS, no app to install." },
+    { "group": "upgrades", "venture": "smeasy", "status": "idea", "title": "MYOB payroll sync", "text": "The same approved-hours sync SMEasy has for Xero, for businesses on MYOB." }
+  ]
+}
