@@ -267,7 +267,7 @@ ${markers}
     <div class="wrap">
       <div>
         <h1 id="hero-title">We find what wastes people’s time and build the&nbsp;fix.</h1>
-        <p class="hero-lede">MONARO8 builds and runs its own software businesses out of Cooma. AI tools let a small outfit build what used to take a big team, and keep the price honest. ${cap(word(N))} so far: ${stageSentence}.</p>
+        <p class="hero-lede">MONARO8 builds and runs its own web projects out of Cooma. AI tools let a small outfit build what used to take a big team, and keep the price honest. ${cap(word(N))} so far: ${stageSentence}.</p>
         <div class="hero-actions">
           <a class="btn btn-gold" href="#ventures">See the ventures <span class="arr">${ICON.down}</span></a>
           <a class="link-quiet" href="/contact/">Get in touch</a>
@@ -295,7 +295,7 @@ ${markers}
       <div class="survey-rule"></div>
       <div class="layout">
         <div class="intro">
-          <h2 id="ventures-title">${cap(word(N))} businesses, built in Cooma.</h2>
+          <h2 id="ventures-title">What’s been built so&nbsp;far.</h2>
           <p>Each one started with something that bugs people: rosters on paper, carbon questions in tenders, battery quotes by ring-around, flight status behind a login, public data nobody can find.</p>
           <a class="link-quiet" href="/ventures/">What each one does and how it’s built</a>
         </div>
@@ -329,7 +329,7 @@ ${benchSection()}
       <div class="survey-rule"></div>
       <div class="place">
         <div class="place-copy">
-          <h2 id="place-title">Why&nbsp;Cooma.</h2>
+          <h2 id="place-title">Who’s behind&nbsp;it.</h2>
           <p><strong>MONARO8 is Oliver Moran.</strong> Fifteen years leading product teams at Qantas, IAG/NRMA, MetLife and Equifax, then Founder in Residence at Antler Singapore, and EnergyLab. Recently elected President of the Cooma Chamber of Commerce.</p>
           <p>Cooma’s a working town. People here run small businesses, work trades and drive a long way for most things. They haven’t got time for software that’s overpriced or hard to use, and neither have we.</p>
           <dl class="creds">
@@ -369,10 +369,9 @@ ${mapMarks}
     <div class="contours contours--dark" data-contours></div>
     <div class="wrap">
       <h2 id="closing-title">Got a problem that needs&nbsp;fixing?</h2>
-      <p>Want to build something together, partner up, or ask about one of the businesses? Send a short note.</p>
+      <p>Want to build something together, partner up, or ask about one of the projects? Send a short note.</p>
       <div class="hero-actions">
         <a class="btn btn-gold" href="/contact/">Get in touch <span class="arr">${ICON.right}</span></a>
-        <a class="link-quiet" href="mailto:hello@monaro8.com.au">hello@monaro8.com.au</a>
       </div>
     </div>
   </section>
@@ -387,7 +386,7 @@ ${mapMarks}
 </script>`;
   const html = head({
     title: 'MONARO8 | Independent venture builder, Cooma NSW',
-    desc: `MONARO8 builds and runs software businesses out of Cooma, NSW: ${nameList}. An independent venture builder using AI tools to do more with a small team.`,
+    desc: `MONARO8 builds and runs web projects out of Cooma, NSW: ${nameList}. An independent venture builder using AI tools to do more with a small team.`,
     path: '/', og: 'home', extraHead: importMap,
     ld: { '@context': 'https://schema.org', '@graph': [orgLd, { '@type': 'WebSite', '@id': `${SITE}/#website`, url: `${SITE}/`, name: 'MONARO8', publisher: { '@id': `${SITE}/#organization` }, inLanguage: 'en-AU' }, venturesList] },
   }) + body + `\n<main id="main">\n${main}\n</main>\n` + footer();
@@ -404,8 +403,7 @@ function venturesPage() {
       ['Category', esc(v.category), ''],
       ['Stage', STAGE[v.stage], v.stage === 'live' ? 'stage-live' : ''],
       v.operator && ['Operator', esc(v.operator), ''],
-      st.first && ['First commit', day(st.first), 'mono'],
-      st.commits && ['Commits', `${num(st.commits)} to ${day(stats.asOf)}`, 'mono'],
+      st.first && ['Started', day(st.first), 'mono'],
       ['Site', `<a href="${v.url}" rel="noopener">${v.domain}${ICON.out}</a>`, ''],
     ].filter(Boolean).map(([k, val, cls]) => `        <div><dt class="label">${k}</dt><dd${cls ? ` class="${cls}"` : ''}>${val}</dd></div>`).join('\n');
     return `
@@ -434,9 +432,9 @@ ${rows}
     </div>
   </section>`;
   }).join('');
-  const body = pageHero(`${cap(word(N))} businesses, and what each one&nbsp;fixes.`,
+  const body = pageHero('The projects, and what each one&nbsp;fixes.',
     'Here’s the problem behind each one, how it’s built and where it’s up to.',
-    [['mono', `${N} ventures`], ['mono', stageShort], ['mono', `${num(commitTotal)} commits since ${day(firstDates[0] || stats.asOf)}`]]) + sections + `
+    [['mono', `${N} projects`], ['mono', stageShort], ['label', 'Built in Cooma']]) + sections + `
   <section class="advisory section" aria-labelledby="v-next">
     <div class="wrap read">
       <h2 id="v-next">Working on something similar?</h2>
@@ -464,7 +462,7 @@ function thesisPage() {
     [['label', 'How we work'], ['label', 'Cooma NSW 2630'], ['mono', '36.2355° S 149.1257° E']]) + '\n  ' + fill(read('tools/pages/thesis.html'));
   write('thesis/index.html', page({
     title: 'How we work | MONARO8, Cooma NSW',
-    desc: 'How MONARO8 picks problems and builds software businesses to fix them, using AI tools to do more with a small team. Who’s behind it, and why Cooma.',
+    desc: 'How MONARO8 picks problems and builds software to fix them, using AI tools to do more with a small team. Who’s behind it, and why Cooma.',
     path: '/thesis/', og: 'thesis',
     ld: { '@context': 'https://schema.org', '@graph': [
       { '@type': 'AboutPage', name: 'Thesis and approach', url: `${SITE}/thesis/`, isPartOf: { '@id': `${SITE}/#website` }, about: { '@id': `${SITE}/#organization` } },
@@ -479,7 +477,7 @@ function thesisPage() {
 function contactPage() {
   const body = pageHero('Get in touch.',
     'A few lines about what you’re working on is plenty. You’ll hear back within one business day.',
-    [['label', 'hello@monaro8.com.au'], ['label', 'Cooma NSW 2630']]) + '\n  ' + fill(read('tools/pages/contact.html'));
+    [['label', 'Cooma NSW 2630'], ['label', 'Reply within one business day']]) + '\n  ' + fill(read('tools/pages/contact.html'));
   write('contact/index.html', page({
     title: 'Contact | MONARO8',
     desc: `Start an enquiry with MONARO8: venture co-build or partnership, a question about ${nameList}, or selective strategic advisory.`,

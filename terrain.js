@@ -43,7 +43,9 @@ const uvToWorld = (u, v) => new THREE.Vector3((u - 0.5) * W, toY(elevUV(u, v)), 
 
 // ── renderer ─────────────────────────────────────
 const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, powerPreference: 'high-performance' });
-renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.75));
+const compact = () => innerWidth < 900;           // phones and small tablets
+const coarse = matchMedia('(pointer: coarse)').matches;
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, compact() ? 1.5 : 1.75));
 renderer.setClearColor(0x111312, 1);
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(34, 1, 0.05, 120);
@@ -213,6 +215,7 @@ document.querySelectorAll('[data-focus]').forEach(f => {
 // cursor parallax + coordinate readout
 const pointer = { x: 0, y: 0, sx: 0, sy: 0, cx: -1, cy: -1, moved: false };
 window.addEventListener('pointermove', e => {
+  if (e.pointerType === 'touch') return;          // touch-scrolling shouldn't swing the camera
   pointer.x = e.clientX / innerWidth * 2 - 1; pointer.y = e.clientY / innerHeight * 2 - 1;
   pointer.cx = e.clientX; pointer.cy = e.clientY; pointer.moved = true;
 }, { passive: true });
@@ -247,10 +250,16 @@ function updateBadge(onTerrain) {
 }
 
 // ── loop ─────────────────────────────────────────
+let lastW = 0, lastH = 0;
 function resize() {
   const w = innerWidth, h = innerHeight;
+  // mobile browsers resize the viewport as the URL bar shows and hides; ignore those small height-only changes
+  if (w === lastW && Math.abs(h - lastH) < 160) return;
+  lastW = w; lastH = h;
   renderer.setSize(w, h, false);
-  camera.aspect = w / h; camera.updateProjectionMatrix();
+  camera.aspect = w / h;
+  camera.fov = w / h < 0.8 ? 52 : 34;               // portrait screens need a wider lens to hold the relief
+  camera.updateProjectionMatrix();
 }
 resize(); addEventListener('resize', resize);
 
@@ -296,13 +305,13 @@ function frame() {
     const vr = ventures?.getBoundingClientRect();
     const venturesOn = !!vr && vr.top < innerHeight * 0.45 && vr.bottom > innerHeight * 0.6;
     const datumOn = !!hero && scrollY < hero.offsetHeight * 0.45;
-    layer?.classList.toggle('on', venturesOn);
-    datumLayer?.classList.toggle('on', datumOn);
+    layer?.classList.toggle('on', venturesOn && !compact());   // labels would sit over the stacked cards on phones
+    datumLayer?.classList.toggle('on', datumOn && !compact());  // on phones the label would sit over the opening copy
     const grid = gridEl?.getBoundingClientRect(), intro = introEl?.getBoundingClientRect();
     for (const w of wps) {
       proj.copy(w.pos).project(camera);
-      const sx = (proj.x + 1) / 2 * innerWidth, sy = (1 - proj.y) / 2 * innerHeight;
-      let hidden = proj.z > 1 || sx < 8 || sx > innerWidth - 8 || sy < 90 || sy > innerHeight - 8;
+      const sx = (proj.x + 1) / 2 * lastW, sy = (1 - proj.y) / 2 * lastH;
+      let hidden = proj.z > 1 || sx < 8 || sx > lastW - 8 || sy < 90 || sy > lastH - 8;
       if (w.id !== 'cooma' && grid && intro) {
         const wide = innerWidth > 1100;
         if (wide && sx > grid.left - 200) hidden = true;                          // label must clear the venture grid
@@ -312,7 +321,7 @@ function frame() {
       if (!hidden) w.el.style.transform = `translate(${sx}px, ${sy}px)`;
     }
   }
-  if (pointer.moved) {
+  if (pointer.moved && !coarse) {
     pointer.moved = false;
     const overUI = document.elementFromPoint(pointer.cx, pointer.cy)?.closest('.sheet, .wp-frame, .site-header, .title-block, .site-footer, .hero h1, .hero-lede, .hero-actions');
     updateBadge(overUI ? null : pick());

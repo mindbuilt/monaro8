@@ -139,7 +139,7 @@ p { margin: 0; text-wrap: pretty; }
 
 /* ── Terrain canvas & window sections ───────────── */
 #terrain {
-  position: fixed; inset: 0; z-index: 0; width: 100%; height: 100%;
+  position: fixed; inset: 0 auto auto 0; z-index: 0; width: 100%; height: 100lvh;
   opacity: 0; transition: opacity 1.6s var(--ease-out);
 }
 #terrain.ready { opacity: 1; }

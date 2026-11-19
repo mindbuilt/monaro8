@@ -13,9 +13,10 @@
     });
   }
 
-  // ── terrain gate: desktop + motion allowed + WebGL2 ──
+  // ── terrain gate: motion allowed + WebGL2 + not on Save-Data ──
   const canvas = document.getElementById('terrain');
-  const wantsTerrain = canvas && matchMedia('(min-width: 900px) and (prefers-reduced-motion: no-preference)').matches && (() => {
+  const saveData = navigator.connection && navigator.connection.saveData;
+  const wantsTerrain = canvas && !saveData && matchMedia('(prefers-reduced-motion: no-preference)').matches && (() => {
     try { return !!document.createElement('canvas').getContext('webgl2'); } catch { return false; }
   })();
   if (wantsTerrain) {
