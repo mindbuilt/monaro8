@@ -266,7 +266,7 @@ ${markers}
     <div class="contours contours--dark" data-contours></div>
     <div class="wrap">
       <div>
-        <h1 id="hero-title">We find what wastes people’s time and build the&nbsp;fix.</h1>
+        <h1 id="hero-title">Useful software, built in&nbsp;Cooma.</h1>
         <p class="hero-lede">MONARO8 builds and runs its own web projects out of Cooma. AI tools let a small outfit build what used to take a big team, and keep the price honest. ${cap(word(N))} so far: ${stageSentence}.</p>
         <div class="hero-actions">
           <a class="btn btn-gold" href="#ventures">See the ventures <span class="arr">${ICON.down}</span></a>

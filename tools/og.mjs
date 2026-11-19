@@ -5,7 +5,7 @@ import { chromium } from 'playwright';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const BASE = process.env.BASE || 'http://127.0.0.1:8787';
 const PAGES = {
-  home: ['We find what wastes people’s time and build the&nbsp;fix.', 'Independent venture builder'],
+  home: ['Useful software, built in&nbsp;Cooma.', 'Independent venture builder'],
   ventures: ['Five businesses, and what each one&nbsp;fixes.', 'Ventures'],
   thesis: ['Find the problem. Build the&nbsp;fix.', 'How we work'],
   advisory: ['Independent digital and product advice for&nbsp;Canberra.', 'Digital advisory'],
